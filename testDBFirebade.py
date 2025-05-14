@@ -10,7 +10,12 @@ firebase_admin.initialize_app(cred, {
     #"databaseURL": "https://testpoo-59c96-default-rtdb.firebaseio.com"  # Cambia con tu URL de la base de datos
     "databaseURL": "https://testvscode-5996d-default-rtdb.firebaseio.com/"  # Cambia con tu URL de la base de datos
 })
-
+#Capturar datos de entrevista a traves de la consola,
+#Nombre
+#Edad
+#Estudio
+#Hobbie
+#Numero favorito
 # Referencia al nodo en la base de datos
 ref = db.reference("nodo1")  # Cambia "nodo_principal" por tu ruta
 
